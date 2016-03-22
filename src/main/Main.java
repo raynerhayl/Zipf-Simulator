@@ -10,10 +10,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
-import java.util.Set;
-
-import javax.swing.JFileChooser;
-
 import ecs100.*;
 
 public class Main {
@@ -23,7 +19,7 @@ public class Main {
 	List<String> orderedKeys = new ArrayList<String>();
 
 	private final int GRAPH_WIDTH = 500;
-	private final int GRAPH_HEIGHT = 300;
+	private final int GRAPH_HEIGHT = 600;
 	private int numToGraph = 10;
 
 	public Main() {
